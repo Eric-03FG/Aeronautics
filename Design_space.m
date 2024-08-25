@@ -109,7 +109,7 @@ text(WS(round(end/5)) + .5, CL5(round(end/5)), '45 KCAS', 'Interpreter', 'latex'
 text(WS(round(end/6)) + .5, CL6(round(end/6)), '40 KCAS', 'Interpreter', 'latex', 'Color', 'k', 'FontSize', 9, 'Rotation', 25)
 legend('LCVT','DRC','TOD','DCAS','SC','Interpreter','latex','Location','northeast')
 xlabel('Wing Loading - $W/S \left[\mathrm{lbf}/\mathrm{ft}^2 \right]$', 'Interpreter', 'latex')
-title('Space Design for GA Trainer Aircraft', 'Interpreter', 'latex')
+title('Design Space for GA Trainer Aircraft', 'Interpreter', 'latex')
 grid on
 
 figure;
